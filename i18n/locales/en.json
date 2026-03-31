@@ -1,0 +1,39 @@
+{
+  "app": {
+    "name": "Notes"
+  },
+  "notes": {
+    "title": "Notes",
+    "create": "New note",
+    "createFirst": "Create note",
+    "emptyTitle": "No notes yet",
+    "emptyText": "Create your first note to get started",
+    "untitled": "Untitled",
+    "noTodos": "No tasks",
+    "emptyTodo": "Empty item",
+    "moreItems": "+ {count} more",
+    "back": "Back",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "addTodo": "Add",
+    "todosTitle": "Tasks",
+    "titlePlaceholder": "Note title",
+    "todoPlaceholder": "Enter task text...",
+    "todosEmptyHint": "Click \"Add\" to create your first task"
+  },
+  "modals": {
+    "deleteTitle": "Delete note?",
+    "deleteText": "This note will be permanently deleted. Are you sure?",
+    "cancelTitle": "Cancel editing?",
+    "cancelText": "You have unsaved changes. Are you sure you want to leave?",
+    "cancel": "Cancel",
+    "confirmDelete": "Delete",
+    "stay": "Stay",
+    "leave": "Leave without saving"
+  },
+  "actions": {
+    "undo": "Undo (Ctrl+Z)",
+    "redo": "Redo (Ctrl+Shift+Z)"
+  }
+}

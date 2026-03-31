@@ -1,0 +1,25 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "overrides": [
+    {
+      "files": ["**/*.vue"],
+      "customSyntax": "postcss-html"
+    }
+  ],
+  "rules": {
+    "selector-class-pattern": null,
+    "scss/no-global-function-names": null,
+    "scss/at-mixin-pattern": null,
+    "scss/dollar-variable-pattern": null,
+    "no-empty-source": null,
+    "no-descending-specificity": null,
+    "declaration-empty-line-before": null,
+    "custom-property-empty-line-before": null,
+    "custom-property-pattern": null,
+    "color-hex-length": null,
+    "color-function-notation": null,
+    "color-function-alias-notation": null,
+    "alpha-value-notation": null,
+    "font-family-name-quotes": null
+  }
+}

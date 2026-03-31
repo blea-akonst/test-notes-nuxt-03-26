@@ -1,0 +1,45 @@
+// Breakpoints (max-width)
+$breakpoint-wide: 1440px;
+$breakpoint-large: 1200px;
+$breakpoint-medium: 992px;
+$breakpoint-small: 768px;
+$breakpoint-exsm: 576px;
+$breakpoint-exexsm: 400px;
+
+// Container
+$container-max-width: 1200px;
+$container-side-padding: 20px;
+
+// Z-index layers
+$z-index-header: 100;
+$z-index-modal-overlay: 200;
+$z-index-modal: 210;
+
+// Mixins
+@mixin media($value) {
+  @media (max-width: $value) {
+    @content;
+  }
+}
+
+@mixin mediaMin($value) {
+  @media (min-width: $value) {
+    @content;
+  }
+}
+
+@mixin hover {
+  @media (hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+}
+
+@mixin mobileActive {
+  @media (hover: none) {
+    &:active {
+      @content;
+    }
+  }
+}

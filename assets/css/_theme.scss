@@ -1,0 +1,68 @@
+:root {
+  --app-bg: #f1f5f9;
+  --app-surface: #ffffff;
+  --app-surface-hover: #f8fafc;
+
+  --app-text: #0f172a;
+  --app-text-muted: #64748b;
+
+  --app-border: #e2e8f0;
+  --app-border-radius: 10px;
+
+  --app-primary: #4f46e5;
+  --app-primary-hover: #4338ca;
+  --app-primary-text: #ffffff;
+  --app-primary-subtle: #eef2ff;
+  --app-primary-subtle-hover: #e0e7ff;
+  --app-primary-subtle-text: #4f46e5;
+
+  --app-danger: #ef4444;
+  --app-danger-hover: #dc2626;
+  --app-danger-text: #ffffff;
+  --app-danger-subtle: #fef2f2;
+  --app-danger-subtle-hover: #fee2e2;
+  --app-danger-subtle-text: #ef4444;
+
+  --app-secondary: #f1f5f9;
+  --app-secondary-hover: #e2e8f0;
+  --app-secondary-text: #475569;
+
+  --app-focus-ring: 0 0 0 3px rgba(79, 70, 229, 0.16);
+  --app-overlay: rgba(0, 0, 0, 0.4);
+  --app-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --app-shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.12), 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.dark {
+  --app-bg: #0f172a;
+  --app-surface: #1e293b;
+  --app-surface-hover: #334155;
+
+  --app-text: #f1f5f9;
+  --app-text-muted: #94a3b8;
+
+  --app-border: #334155;
+
+  --app-primary: #818cf8;
+  --app-primary-hover: #a5b4fc;
+  --app-primary-text: #0f172a;
+  --app-primary-subtle: rgba(129, 140, 248, 0.12);
+  --app-primary-subtle-hover: rgba(129, 140, 248, 0.2);
+  --app-primary-subtle-text: #a5b4fc;
+
+  --app-danger: #f87171;
+  --app-danger-hover: #fca5a5;
+  --app-danger-text: #0f172a;
+  --app-danger-subtle: rgba(248, 113, 113, 0.12);
+  --app-danger-subtle-hover: rgba(248, 113, 113, 0.2);
+  --app-danger-subtle-text: #f87171;
+
+  --app-secondary: #334155;
+  --app-secondary-hover: #475569;
+  --app-secondary-text: #cbd5e1;
+
+  --app-focus-ring: 0 0 0 3px rgba(129, 140, 248, 0.24);
+  --app-overlay: rgba(0, 0, 0, 0.6);
+  --app-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --app-shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.25);
+}

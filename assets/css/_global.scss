@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--app-bg);
+  color: var(--app-text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  max-width: calc(#{$container-max-width} + #{$container-side-padding} * 2);
+  margin: 0 auto;
+  padding: 0 $container-side-padding;
+  width: 100%;
+}
+
+.h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.25;
+
+  @include media($breakpoint-small) {
+    font-size: 24px;
+  }
+}
+
+// Transitions
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
