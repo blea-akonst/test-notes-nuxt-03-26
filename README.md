@@ -1,4 +1,4 @@
-# Notes SPA (Nuxt v3) for MKK Luna
+# Notes SPA (Nuxt v3)
 ### Implemented by Artyom Babich
 
 My contacts: [Telegram](https://t.me/a_k_o_n_s_t), [CV on HeadHunter](https://spb.hh.ru/resume/99a0dd53ff0d82782a0039ed1f787035786c66)
